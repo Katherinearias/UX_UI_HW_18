@@ -7,21 +7,22 @@ font-family: 'Montserrat', sans-serif;
 
 /* navigation */
 
+
 li {
     display: inline-block;
     vertical-align: top;
     margin: 10px;
-
+    font-size: 24px;
 }
 
 .navText{
-    float: right;
-    
-   
+ padding-left: 600px; 
+
 }
 
 .logo {
     float: left;
+    height: 24px;
 }
 
 /* above the fold */
@@ -30,14 +31,15 @@ li {
     display: inline;
 }
 
-.abovefold {
+/* .abovefold {
     width: 1920;
     height: 1080px;
     display: inline-block;
-}
+} */
 
 .aboutMe {
  width: 300px;
+ padding-left: 100px;
 }
 
 .summary {
@@ -80,3 +82,44 @@ button {
 }
 
 /* More About Me Section */
+
+.more {
+    padding-top: 90px;
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+    grid-row: 1fr;
+    padding-right: 200px;
+
+
+}
+
+.mamhead {
+    grid-area: mamhead;
+}
+
+    
+.coffee {
+    grid-area: coffee;
+    width: 300px;
+
+}
+.atlanta {
+    grid-area: atlanta;
+    width: 300px;
+}
+.Text {
+    padding: 60px;
+    text-align: center;
+    padding-left: 100px;
+    padding-right: 100px;
+}
+
+/* Footer */
+
+footer {
+    background-color: #F2F2F2;
+    text-align: center;
+    font-size: 17px;
+   
+
+}
