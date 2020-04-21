@@ -1,5 +1,5 @@
 
-html {
+body {
     background-color: #F2F2F2;
 
 font-family: 'Montserrat', sans-serif;
@@ -122,4 +122,41 @@ footer {
     font-size: 17px;
    
 
+}
+
+
+
+
+
+
+
+
+
+
+/* MEDIA QUERY .................................. */
+
+@media screen and (max-width: 700px) {
+    .aboveFold {
+        display: grid;
+        grid-template-rows: 6fr;
+        grid-template-areas: "aboutMe" "Thrive" "uscis" "TravelApp" "AJA";
+        padding-left: 50px;
+       
+
+    }
+    .more {s
+        display: grid;
+        grid-template-columns: 1fr;
+        grid-template-rows: 3fr;
+        grid-template-areas: "Text" "images";
+        padding-left: 50px;
+    }
+    .images {
+        align-content: center;
+        padding-left: 50px;
+    }
+    .Text{
+        padding: 20px;
+    }
+    
 }
