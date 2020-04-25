@@ -140,7 +140,8 @@ footer {
         display: grid;
         grid-template-rows: 6fr;
         grid-template-areas: "aboutMe" "Thrive" "uscis" "TravelApp" "AJA";
-        padding-left: 50px;
+        /* padding-left: 50px; */
+        margin: 0 auto;
        
 
     }
@@ -149,11 +150,13 @@ footer {
         grid-template-columns: 1fr;
         grid-template-rows: 3fr;
         grid-template-areas: "Text" "images";
-        padding-left: 50px;
+        /* padding-left: 50px; */
+        margin: 0 auto;
     }
     .images {
         align-content: center;
-        padding-left: 40px;
+        /* padding-left: 40px; */
+        margin: 0 auto;
     }
     .Text{
         padding: 20px;
